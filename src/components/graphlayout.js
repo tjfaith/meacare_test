@@ -3,7 +3,7 @@ import GraphComponent from "../components/graph";
 
 const Graph = () => {
   return (
-    <div className="flex  border rounded-xl  justify-between mx-8 divide-x">
+    <div className="flex  border rounded-xl  justify-between mx-8 divide-x mb-4">
         <div className='grow'>
       <div className="flex font-semibold text-sm items-center justify-between grow m-5">
         <div className="flex flex-row items-center">

@@ -54,6 +54,8 @@ const Efficiency = () => {
 
     {/* body part */}
     <Graph/>
+    <Graph/>
+    <Graph/>
     </div>
   );
 };
