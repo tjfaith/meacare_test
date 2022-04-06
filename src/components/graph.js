@@ -1,4 +1,3 @@
-import Paper from '@mui/material/Paper';
 import {
   ArgumentAxis,
   ValueAxis,
@@ -19,8 +18,7 @@ const data = [
 
 const GraphComponent = () => {
     return ( 
-        <Paper>
-    <Chart
+    <Chart height={250}
       data={data}
     >
       <ArgumentAxis />
@@ -29,7 +27,6 @@ const GraphComponent = () => {
 
       <LineSeries valueField="value" argumentField="argument" />
     </Chart>
-  </Paper>  
      );
 }
  
